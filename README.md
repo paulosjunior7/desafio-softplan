@@ -25,6 +25,7 @@ encontra-se o fonte no github
 
 ## Atenção
 * [docker](https://www.docker.com/) deverá estar instalado no ambiente. 
+* As portas 8080 e 8081 deverão estar liberadas no ambinete.
 
 ## Executar aplicação
 ```
@@ -43,6 +44,7 @@ Responde pelo path relativo "http://localhost:8081/v1/taxajuros" onde será reto
 #### API 2  
 1) Calcula Juros
 Responde pelo path relativo "http://localhost:8080/v1/calculajuros"
+parametros exemplo: ?valorinicial=100&amp;meses=5
 Calculo de juros composto, possui integração com a API1, para a busca do parametro
 taxa de juros.
 
