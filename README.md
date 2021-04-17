@@ -38,16 +38,16 @@ encontra-se o fonte no github
 
 #### API 1
 1) Retorna taxa de juros  
-Responde pelo path relativo "/v1/taxajuros" onde será retornada a taxa de juros.
+Responde pelo path relativo "http://localhost:8081/v1/taxajuros" onde será retornada a taxa de juros.
 
 #### API 2  
 1) Calcula Juros
-Responde pelo path relativo "/v1/calculajuros"
+Responde pelo path relativo "http://localhost:8080/v1/calculajuros"
 Calculo de juros composto, possui integração com a API1, para a busca do parametro
 taxa de juros.
 
 2) Show me the code 
-Este responde pelo path relativo /v1/showmethecode onde será retornado o repositório do código no github
+Este responde pelo path relativo http://localhost:8080/v1/showmethecode onde será retornado o repositório do código no github
 
 #### TESTE
 
