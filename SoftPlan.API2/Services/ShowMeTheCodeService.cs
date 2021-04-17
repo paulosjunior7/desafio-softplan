@@ -11,6 +11,10 @@ namespace SoftPlan.API2.Services
         public string ObterUrlGit()
         {
             string URL = Environment.GetEnvironmentVariable("URL_GITHUB");
+            if (URL == null)
+            {
+                URL = @"https://github.com/paulosjunior7/desafio-softplan";
+            }
             return URL;
         }
     }
