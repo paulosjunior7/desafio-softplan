@@ -14,7 +14,7 @@ services:
       context: ./SoftPlan.API2/
     environment:
       URL_GITHUB: https://github.com/paulosjunior7/softplan-teste
-      URL_API1: http://api1:8081/v1/taxajuros
+      URL_API1: http://api1/v1/taxajuros
     ports:
       - "8080:80"
     external_links:
